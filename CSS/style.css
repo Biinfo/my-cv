@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    background: rgb(96, 59, 132);
+
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+    padding: 10px;
+    color: rgb(3, 124, 124);
+}
+
+.header {
+    height: 25vh;
+    border-bottom: 2px solid rgb(3, 124, 124);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: rgb(3, 124, 124);
+}
+
+.logo-title {
+    float: left;
+
+}
+
+.logo {
+    float: left;
+}
+
+.logo-icon {
+    width: 100px;
+    height: 120px;
+    border: 5px solid rgb(3, 124, 124);
+    border-radius: 50%;
+}
+
+.title {
+    float: left;
+    padding-top: 30px;
+    padding-left: 20px;
+
+}
+
+.title h2 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 20px;
+
+}
+
+.contact {
+    float: right;
+    padding-top: 17px;
+}
+
+.contact ul li {
+    color: rgb(3, 124, 124);
+}
+
+.contact ul li:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.contact ul li a {
+    color: rgb(3, 124, 124);
+
+}
+
+/*main start here*/
+main {}
+
+.address {
+    padding: 20px;
+    height: 20vh;
+    align-items: center;
+    display: flex;
+    border-bottom: 2px solid rgb(3, 124, 124);
+}
+
+.address-title {
+    float: left;
+    padding-left: ;
+}
+
+.address-content {
+    float: left;
+    width: 600px;
+    text-align: justify;
+    padding-left: 10rem;
+    line-height: 1.4rem;
+}
+
+.address-content p {}
+
+table {
+    max-width: 500px;
+    margin: auto;
+}
+
+.personal {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid;
+}
+
+.personal-title {
+    width: 400px;
+    margin: 0 auto;
+    border: 2px solid;
+    padding: 15px;
+    text-transform: uppercase;
+    background: rgb(189, 189, 172);
+
+}
+
+.personal-h2 {
+    padding-left: 22px;
+}
+
+.table-row {
+    padding-top: 20px;
+}
+
+td,
+th {
+    text-align: center;
+    border: 1px solid rgb(3, 124, 124);
+    padding: 10px;
+    width: 250px;
+
+}
+
+.academic {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid;
+}
+
+.academic-title {
+    width: 400px;
+    margin: 0 auto;
+    border: 2px solid;
+    padding: 15px;
+    text-transform: uppercase;
+    background: rgb(189, 189, 172);
+
+}
+
+.academic-h2 {
+    padding-left: 22px;
+}
+/*main End here*/
+footer{
+padding: 20px;
+height: 10vh;
+}
+.other{
+    float: left;
+
+}
+.skill{
+    float: left;
+    width: 500px;
+    
+}
+.skill p{
+    padding-left: 20px;
+}
